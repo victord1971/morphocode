@@ -10,6 +10,8 @@ header {
   display: flex;
   align-items: center;
   max-width: 1080px;
+  justify-content: space-between;
+  margin: auto;
 }
 
 ul {
@@ -17,12 +19,12 @@ ul {
   display: flex;
   /* width: 100px; */
   gap: 22px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 li {
   /* width: 1000px; */
-
-}
+ }
 
 :link, :visited {
   text-decoration: none;
@@ -30,4 +32,21 @@ li {
 
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  padding-left: 55px;
+  margin: auto;
+}
 
+h2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  width: 522px;
+}
+
+.hero p {
+  font-size: 18px;
+  width: 512px;
+}
